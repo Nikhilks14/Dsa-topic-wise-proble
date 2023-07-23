@@ -5,7 +5,7 @@ Given n non-negative integers representing an elevation map where the width of e
 Constraints:
 
 The input array height is not empty.
-<h3 style="color: purple;">Example 1:</h3>
+<h3>Example 1:</h3>
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
 
@@ -35,7 +35,7 @@ Output: null
 
 Explanation: The linked list does not contain a cycle.
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>3. Problem: Container With Most Water II</h2></div>
 Given an m x n grid representing an elevation map where the width of each cell is 1, compute how much water it can trap after raining.
 Constraints:
@@ -74,7 +74,7 @@ Output: "bb"
 
 Explanation: The longest palindromic substring is "bb".
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>5. Problem: 3Sum Closest</h2></div>
 Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers.
 Constraints:
@@ -112,7 +112,7 @@ Output: true
 
 Explanation: You can delete the character 'c' to make "abca" a palindrome.
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>7. Problem: Longest Substring with At Most K Distinct Characters</h2></div>
 Given a string s and an integer k, return the length of the longest substring of s that contains at most k distinct characters.
 Constraints:
@@ -149,7 +149,7 @@ Output: "a"
 
 Explanation: The minimum window substring containing all characters in "a" is "a".
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>9. Problem: Valid Palindrome III</h2></div>
 Given a string s and an integer k, return true if s is a k-palindrome.
 A string is k-palindrome if it can be transformed into a palindrome by removing at most k characters from it.
@@ -189,7 +189,7 @@ Output: "leotcede"
 
 Explanation: The vowels in the string are 'e', 'o', and 'e'. Reverse them to get "leotcede".
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>11. Problem: Longest Substring Without Repeating Characters</h2></div>
 Given a string s, find the length of the longest substring without repeating characters.
 Constraints:
@@ -225,7 +225,7 @@ Output: [4, 9, 9, 49, 121]
 
 Explanation: The squares of the numbers are [49, 9, 4, 9, 121], which are sorted in non-decreasing order.
 
-<div style="color: blue;"><h1>🔵 MEDIUM – LEVEL PROBLEM :</h1></div>
+ 
 <div style="color: green;"><h2>13. Problem: Merge Sorted Array</h2></div>
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 Constraints:
