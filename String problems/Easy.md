@@ -4,17 +4,17 @@
 
 **Example 1:**
 
-    Input: `"aba"`
+        Input: `"aba"`
 
-    Output: `True`
+        Output: `True`
 
 **Explanation:** The string "aba" is already a palindrome.
 
 **Example 2:**
 
-    Input: `"abca"`
+        Input: `"abca"`
 
-    Output: `True`
+        Output: `True`
 
 **Explanation:** By removing 'c', the string "abca" becomes a palindrome ("aba").
 
@@ -30,17 +30,17 @@
 
 **Example 1:**
 
-    Input: `"abcabcbb"`
+        Input: `"abcabcbb"`
 
-    Output: `3`
+        Output: `3`
 
 **Explanation:** The longest substring without repeating characters is "abc".
 
 **Example 2:**
 
-    Input: `"bbbbb"`
+        Input: `"bbbbb"`
 
-    Output: `1`
+        Output: `1`
 
 **Explanation:** The longest substring without repeating characters is "b".
 
@@ -56,16 +56,16 @@
 
 **Example 1:**
 
-    Input: S = `"ADOBECODEBANC"`, T = `"ABC"`
+            Input: S = `"ADOBECODEBANC"`, T = `"ABC"`
 
-    Output: `"BANC"`
+            Output: `"BANC"`
 
 **Explanation:** The minimum window containing all characters in T is "BANC".
 
 **Example 2:**
 
-    Input: S = `"a"`, T = `"aa"`
-    Output: `""`
+            Input: S = `"a"`, T = `"aa"`
+            Output: `""`
 
 **Explanation:** There is no window containing all characters in T.
 
@@ -75,9 +75,6 @@
 
 ---
 
-... (continue with other problems)
-
-...
 
 ---
 
@@ -87,15 +84,15 @@
 
 **Example 1:**
 
-Input: `["abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"]`
-Output: `[["abc","bcd","xyz"], ["az","ba"], ["acef"], ["a","z"]]`
+        Input: `["abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"]`
+        Output: `[["abc","bcd","xyz"], ["az","ba"], ["acef"], ["a","z"]]`
 
 **Explanation:** The strings "abc", "bcd", and "xyz" are shifted versions of each other.
 
 **Example 2:**
 
-Input: `["abc", "am"]`
-Output: `[["abc"], ["am"]]`
+        Input: `["abc", "am"]`
+        Output: `[["abc"], ["am"]]`
 
 **Explanation:** There are no shifted versions in this case.
 
@@ -111,28 +108,27 @@ Output: `[["abc"], ["am"]]`
 
 **Example 1:**
 
-Input:
-trie = Trie()
-trie.insert("apple")
-trie.search("apple") // Output: True
-trie.search("app") // Output: False
-trie.startsWith("app") // Output: True
+        Input:
+        trie = Trie()
+        trie.insert("apple")
+        trie.search("apple") // Output: True
+        trie.search("app") // Output: False
+        trie.startsWith("app") // Output: True
 
-less
-Copy code
+
 
 **Example 2:**
 
-Input:
-trie = Trie()
-trie.insert("banana")
-trie.insert("bandana")
-trie.search("banana") // Output: True
-trie.startsWith("band") // Output: True
-trie.startsWith("banan") // Output: False
+    Input:
+    trie = Trie()
+    trie.insert("banana")
+    trie.insert("bandana")
 
-yaml
-Copy code
+    trie.search("banana") // Output: True
+    trie.startsWith("band") // Output: True
+    trie.startsWith("banan") // Output: False
+
+
 
 **Constraints:**
 - The input strings consist only of lowercase letters.
@@ -146,13 +142,13 @@ Copy code
 
 **Example 1:**
 
-Input: `"()"`
-Output: `True`
+        Input: `"()"`
+        Output: `True`
 
 **Example 2:**
 
-Input: `"()[]{}"`
-Output: `True`
+        Input: `"()[]{}"`
+        Output: `True`
 
 **Constraints:**
 - The input string will only contain the characters '(', ')', '{', '}', '[' and ']'.
@@ -209,11 +205,11 @@ Output: `True`
 **Description:** The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
 
 P A H N
+
 A P L S I I G
+
 Y I R
 
-vbnet
-Copy code
 
 And then read line by line: "PAHNAPLSIIGYIR"
 
